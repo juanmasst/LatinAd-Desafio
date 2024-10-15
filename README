@@ -1,0 +1,47 @@
+# LatinAd Player Developer Challenge
+
+Este proyecto incluye un reproductor de publicidades desarrollado en Electron (cliente) y Node.js (servidor).
+
+## Instalación y Configuración
+
+### Requisitos Previos
+
+- Node.js (v14 o superior)
+- npm (v6 o superior)
+
+### 1. Clonar el Repositorio
+
+Primero, clona el repositorio en tu máquina local:
+
+
+git clone <URL_DEL_REPOSITORIO>
+cd <nombre_del_repositorio>
+
+### 2. Instalación del Servidor (Node.js)
+Navega a la carpeta del servidor:
+
+
+cd server
+Instala las dependencias:
+
+
+npm install
+Inicia el servidor:
+
+
+node server.js
+El servidor comenzará a escuchar en el puerto especificado (por defecto 3000).
+
+### 3. Instalación del Cliente (Electron)
+Regresa a la raíz del proyecto:
+
+
+cd ../client
+Instala las dependencias:
+
+npm install
+Inicia el cliente:
+
+
+npm start
+Esto abrirá la aplicación de Electron.
